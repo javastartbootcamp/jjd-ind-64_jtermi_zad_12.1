@@ -7,9 +7,9 @@ class Main {
 
         String[] arrayOfLines = fileReader.linesToArray(fileName);
 
-        MathOperations[] mathOperations = mathExtractor.extractMathExpressionToTable(arrayOfLines);
+        MathOperation[] mathOperations = mathExtractor.extractMathExpressionToTable(arrayOfLines);
 
-        for (MathOperations mathOperation : mathOperations) {
+        for (MathOperation mathOperation : mathOperations) {
             System.out.println(mathOperation.toString());
         }
     }

@@ -1,8 +1,8 @@
-public class MathOperations {
+public class MathOperation {
 
-    private static final String MULTIPLY = "\\*";
+    private static final String MULTIPLY = "*";
     private static final String DIVIDE = "/";
-    private static final String ADD = "\\+";
+    private static final String ADD = "+";
     private static final String SUBTRACT = "-";
 
     private final Double a;
@@ -10,7 +10,7 @@ public class MathOperations {
     private final String operation;
     private Double result;
 
-    public MathOperations(Double a, Double b, String operation) {
+    public MathOperation(Double a, Double b, String operation) {
         this.a = a;
         this.b = b;
         this.operation = operation;
