@@ -41,6 +41,6 @@ public class MathOperation {
         } catch (ArithmeticException e) {
             System.err.println(e.getMessage());
         }
-        return a + " " + (operation.charAt(operation.length() - 1)) + " " + b + " = " + result;
+        return a + " " + operation + " " + b + " = " + result;
     }
 }
